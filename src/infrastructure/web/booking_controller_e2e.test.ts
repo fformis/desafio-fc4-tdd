@@ -64,9 +64,9 @@ beforeAll(async () => {
   });
 });
 
-afterAll(async () => {
-  await dataSource.destroy();
-});
+// afterAll(async () => {
+//    await dataSource.destroy();
+//  });
 
 describe("BookingController", () => {
   beforeAll(async () => {

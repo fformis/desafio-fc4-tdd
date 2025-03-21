@@ -10,7 +10,7 @@ describe('Property Mapper', () => {
         propertyEntity.id = '1';
         propertyEntity.name = 'Casa na praia';
         propertyEntity.description = 'Casa maravilhosa na praia';
-        propertyEntity.maxGuests = 0;
+        propertyEntity.maxGuests = 1;
         propertyEntity.basePricePerNight = 100;
 
         // Act
